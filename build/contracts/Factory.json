@@ -1,0 +1,84 @@
+{
+  "contract_name": "Factory",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "isInstantiation",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "instantiations",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "creator",
+          "type": "address"
+        }
+      ],
+      "name": "getInstantiationCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "instantiation",
+          "type": "address"
+        }
+      ],
+      "name": "ContractInstantiation",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6101978061001f6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416632f4f3316811461005357806357183c82146100865780638f838478146100c4575b600080fd5b341561005e57600080fd5b610072600160a060020a03600435166100f5565b604051901515815260200160405180910390f35b341561009157600080fd5b6100a8600160a060020a036004351660243561010a565b604051600160a060020a03909116815260200160405180910390f35b34156100cf57600080fd5b6100e3600160a060020a036004351661014c565b60405190815260200160405180910390f35b60006020819052908152604090205460ff1681565b60016020528160005260406000208181548110151561012557fe5b906000526020600020900160005b915091509054906101000a9004600160a060020a031681565b600160a060020a0381166000908152600160205260409020545b9190505600a165627a7a7230582010c82747d96d93a35d8389dff40a84c468e97ee34de5fd932fd4daa26cebb2ee0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1540036974905
+}

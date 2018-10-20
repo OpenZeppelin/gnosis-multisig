@@ -63,9 +63,6 @@ Thumbs.db
 multisigWallet.zip
 /dapp/dist
 
-# Truffle
-/build
-
 # Bower
 dapp/bower_components
 

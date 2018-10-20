@@ -5,7 +5,6 @@
   "scripts": {
     "test-dapp": "cd dapp && npm test",
     "test": "sh truffle_test_runner.sh",
-    "install": "cd dapp && npm install",
     "start": "cd dapp && npm start"
   },
   "repository": {
